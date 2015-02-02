@@ -92,6 +92,10 @@
         var delay = Number(document.getElementsByClassName("delay")[0].value);
         var chunk = Number(document.getElementsByClassName("chunk")[0].value);
         spanNodes = textNode.getElementsByTagName("span");
+        // Clear any highlighted words before the current index
+        for (var i = 0; i < index - chunk; i++) {
+            spanNodes[i].className = "";
+        }
         operation = setInterval(function() {
             // Ensure the unhighlighted words are within range
             for (var i = 0; i < chunk; i++) {
