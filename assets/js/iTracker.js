@@ -58,7 +58,7 @@
     formatButton.onclick = function() {
         var raw, paragraphs, words, output = [], i, j, n = 0;
         // Extract raw text from textarea
-        raw = textareaNode.innerHTML;
+        raw = textareaNode.value;
         paragraphs = splitText(raw, "\n");
         // Iterate over the paragraphs
         for (i = 0; i < paragraphs.length; i++) {
