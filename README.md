@@ -1,8 +1,9 @@
-iTracker Reading App
-====================
+# iTracker Reading App
 
-Inspired by [Spreeder](http://spreeder.com/), I wanted to create a speed reading app that displays the entire text.
+[iTracker](https://remarkablemark.org/iTracker/) is a speed reading app inspired by [Spreeder](https://www.spreeder.com/app.php). The difference between apps is iTracker displays all text and takes advantage of [peripheral vision](https://wikipedia.org/wiki/Vision_span) to increase the retention of material.
 
-My theory is that by using an [eye tracking mechanism](http://en.wikipedia.org/wiki/Eye_tracking) with the entire text displayed, [peripheral vision](http://en.wikipedia.org/wiki/Vision_span) could play a part in increasesing absorption and retention of the reading material.
+See [demo](https://remarkablemark.org/iTracker/).
 
-See [demo](http://remarkablemark.org/projects/iTracker).
+## License
+
+MIT
