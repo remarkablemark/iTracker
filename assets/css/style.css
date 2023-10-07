@@ -1,13 +1,19 @@
+.container {
+    max-width: 680px;
+}
+
 textarea,
 .text {
     width: 100%;
 }
+
 textarea {
     font-size: 1em;
     font-size: 1.5rem;
     height: 18em;
     line-height: 1.5;
 }
+
 .text {
     color: #ddd;
     font-size: 1.35em;
@@ -16,12 +22,15 @@ textarea {
     line-height: 1.5;
     margin-bottom: 8em; /* give some space so reading controls does not cover */
 }
+
 .text > .active {
     color: #000;
 }
+
 .formatted-section {
     display: none;
 }
+
 /* make controls into a sticky footer */
 .reading-controls {
     background: #fff;
@@ -33,24 +42,29 @@ textarea {
     text-align: center;
     width: 100%;
 }
+
 /* read button */
 .read:hover {
     border: 1px solid #33C3F0;
 }
+
 /* format button */
 .format:hover {
     border: 1px solid #33C3F0;
     color: #22aeda;
 }
+
 /* reformat button */
 .reformat {
     opacity: 0.5;
 }
+
 .reformat:hover {
     border: 1px solid #ffaeae;
     color: #df5e5e;
     opacity: 1;
 }
+
 /* disabled buttons */
 .button[disabled],
 .button[disabeld]:hover {
